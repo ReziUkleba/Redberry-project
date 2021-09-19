@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/main.css">
+    <script  defer src="styles/script.js"></script>
+    <title>Vaccination</title>
+</head>
+<body>
+    <header>
+        <h1 id="page-title">REDBERRY</h1>
+        <h1 id="page-count">2/4</h1>
+    </header>
+
+        <section id="page2-photo">
+            <img src="photos/vaccinate2.png" alt="guy-with-fever">
+        </section>
+
+            <form action="" class="radio" >
+                <p class="page-questions" id="question-1">გაქვს გადატანილი Covid-19?*</p>
+                    
+                    <div class="radio-label" >
+                        <div onclick="yesNoCheck(0);">
+                        <input type="radio" id="radio1"
+                   name="covid1" value="yes" >
+                  <label  id="radio-label-1" for="radio1">კი</label>
+                        </div>
+
+
+
+                    <div onchange="yesNoCheck(1);">
+                        <input type="radio" id="radio2"
+                   name="covid1" value="no">
+                  <label  id="radio-label-2" for="radio2">არა</label>
+                   
+                        <input type="radio" id="radio3"
+                   name="covid1" value="now-having">
+                  <label  id="radio-label-3" for="radio3">ახლა მაქვს</label>
+                    </div>
+                </div>
+
+
+                    <div style="display: none;"  id="hidden1">
+                    <p class="page-questions"  id="question-2" >ანტისხეულების ტესტი გაქვს გაკეთებული?*</p>
+                    <div class="radio-label" >
+                        <div onchange="yesOption(0);">
+                        <input type="radio" id="radio4"
+                   name="covid2" value="yes">
+                  <label id="radio-label-4" for="radio4" >კი</label>
+                        </div>
+
+                        <div onchange="yesOption(1);">
+                  <input type="radio" id="radio5"
+                   name="covid2" value="no">
+                  <label id="radio-label-5" for="radio5">არა</label>
+                            </div>
+                    </div>
+
+                    </div>
+
+
+
+                    <div style="display: none;" id="hidden2" >
+                        <label for="approx-date" class="page-questions" id="question-3">თუ გახსოვს, გთხოვ მიუთითე ტესტის მიახლოებითი რიცხვი<br>
+                             და ანტისხეულების რაოდენობა*</label>
+                             <input type="text" name="approx-date" id="approx-date" requested placeholder="რიცხვი" required>         
+                             <input type="text" name="antibodies" id="antibodies" requested placeholder="ანტისხეულების რაოდენობა" required>
+
+                        </div>
+
+                        <div style="display: none;" id="hidden3">
+                            <label for="time" class="page-questions" id="question-4">მიუთითე მიახლოებითი პერიოდი (დღე/თვე/წელი) <br>
+                                 როდის გქონდა Covid-19*</label>
+        
+                         <input type="date" id="time" name="time-start"
+                            value="დდ/თთ/წწ" >
+                            </div>
+
+                    
+
+            </form>
+
+
+
+            <div class="nextPreviousButtons">
+                <a href="page1.html"  id="left-button"><img src="photos/left-vector.svg" ></a>
+                <a type="submit" href="page3.html"  id="right-button"><img src="photos/right-vector.svg"></a>
+              </div>
+    
+</body>
+</html>

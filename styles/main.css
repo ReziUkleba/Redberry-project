@@ -1,0 +1,417 @@
+
+
+/*
+    body elements
+
+*/
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,body{
+  margin: 0 auto;
+  position: relative;
+  width: 1920px;
+  height: 1080px;
+  border: 3px solid black;
+  background: #EAEAEA;
+}
+html{
+  background-color: white;
+}
+
+/*
+ page title 
+*/
+
+#page-title{
+  position: absolute;
+  left: 200px;
+  top: 90px ;
+  color: #FE3B1F;
+  font-family: fantasy;
+  font-weight: 900;
+  border-bottom: 1.8px solid #232323;
+  width: 1520px;
+  letter-spacing: 2px;
+}
+
+#page-count{
+  font-family: Anonymous Pro;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0em;
+  position: absolute;
+  right: 196px;
+  top: 85px;
+  
+}
+
+#beginning{
+  position: relative;
+  text-align: center;
+  top: 50%;
+  
+}
+/*
+requirement-comment
+*/
+
+#required-comment{
+  position: absolute;
+  left: 200px;
+  top: 684px;
+  border-top: 0.8px solid #000000;
+}
+
+/*
+  page 1 form 
+*/
+
+#name,#surname,#email, #time ,#approx-date,#antibodies{
+  display:block;
+  width: 513px;
+  height:50px;
+  border: 0.8px solid rgba(35, 35, 35, 1);
+  position:absolute;
+  Left: 200px;
+}
+
+#name{
+  top: 227px;
+}
+
+#surname{
+  top: 365px;
+}
+
+#email{
+  top: 503px;
+}
+
+#time{
+top:650px;
+}
+
+#approx-date{
+  top:650px;
+}
+
+#antibodies{
+ top: 735px;
+}
+
+/*
+question fonts on all pages
+*/
+ .page-questions {
+ 
+font-family: Helvetica  Neue LT GEO;
+font-size: 22px;
+font-style: normal;
+font-weight: 700;
+line-height: 27px;
+letter-spacing: 0em;
+position: absolute;
+left: 200px;
+
+}
+
+#name-label{                              
+ top: 186px;
+}
+
+#surname-label{
+ top: 324px;
+}
+#email-label{
+ top: 462px;
+}
+
+/*
+page 2 and 3 question positioning
+*/
+
+#question-1, #p3-question-1{
+position: absolute;
+top: 186px;
+}
+
+#question-2{
+  position: absolute;
+  top: 395px;
+}
+#p3-question-2{
+  position: absolute;
+  top: 350px;
+}
+#question-3, #question-4{
+  position: absolute;
+  top: 561px;
+}
+
+/*
+radio input elements
+*/
+
+.radio input{
+  position: absolute;
+  left: 222px;
+}
+  #radio1, #radio-label-1, #p3-radio1, #p3-radio-label-1 {
+    position: absolute;
+    top: 245px;
+  }
+
+  #radio2 , #radio-label-2, #p3-radio2, #p3-radio-label-2{
+    position: absolute;
+    top: 285px;
+  }
+
+  #radio3, #radio-label-3{
+    position: absolute;
+    top: 324px;
+  }
+
+
+  #radio4, #radio-label-4{
+    position: absolute;
+    top: 460px;
+  }
+  #radio5, #radio-label-5{
+    position: absolute;
+    top: 500px;
+  }
+ 
+
+
+    .radio-label label{
+      position: absolute;
+      left: 261px;
+      font-family: Helvetica Neue LT GEO;
+    font-style: normal;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 24px;
+    }
+/*
+  page-3 radio
+  */
+    #p3-radio3, #p3-radio-label-3{
+      position: absolute;
+      top: 415px;
+    }
+    #p3-radio4, #p3-radio-label-4{
+      position: absolute;
+      top: 455px;
+    }
+    #p3-radio5, #p3-radio-label-5{
+      position: absolute;
+      top: 495px;
+    }
+
+    #gov-link{
+      position: absolute;
+      font-family: Helvetica Neue LT GEO;
+      left: 260px;
+      top: 600px;
+    }
+
+   
+/*
+page 4 questions
+*/
+
+#p4-question-1{
+  position: absolute;
+  top: 481px;
+}
+#p4-question-2{
+  position: absolute;
+  top: 783px;
+}
+#p4-question-3{
+  position: absolute;
+  top: 1147px;
+}
+#p4-question-4{
+  position: absolute;
+  top: 1430px;
+}
+/*
+page 4 radio
+*/
+
+#p4-radio1, #p4-radio-label-1{
+  position: absolute;
+  top: 595px;
+}
+#p4-radio2, #p4-radio-label-2{
+  position: absolute;
+  top: 636px;
+}
+#p4-radio3, #p4-radio-label-3{
+  position: absolute;
+  top: 677px;
+}
+#p4-radio4, #p4-radio-label-4{
+  position: absolute;
+  top: 722px;
+}
+/*
+*/
+
+#p4-radio5, #p4-radio-label-5{
+  position: absolute;
+  top: 880px;
+}
+#p4-radio6, #p4-radio-label-6{
+  position: absolute;
+  top: 920px;
+}
+#p4-radio7, #p4-radio-label-7{
+  position: absolute;
+  top: 960px;
+}
+#p4-radio8, #p4-radio-label-8{
+  position: absolute;
+  top: 1000px;
+}
+#p4-radio9, #p4-radio-label-9{
+  position: absolute;
+  top: 1040px;
+}
+
+
+
+
+#comment1{
+  position: absolute;
+  left: 200px;
+  top: 1220px;
+  resize: none;
+  height: 184px;
+  width: 622px;
+  border-radius: 0px;
+
+}
+
+#comment2{
+  position: absolute;
+  left: 200px;
+  top: 1530px;
+  resize: none;
+  height: 184px;
+  width: 622px;
+  border-radius: 0px;
+}
+
+
+
+
+
+
+/*
+page 4
+*/
+
+#intro{
+position: absolute;
+width: 606px;
+height: 251px;
+left: 199px;
+top: 186px;
+
+font-family: Helvetica Neue LT GEO;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 27px;
+color: #232323;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  photos */
+
+#page1-photo{
+  position: absolute;
+width: 904px;
+height: 831px;
+right: 165px;
+top: 94px;
+}
+
+  #page2-photo{
+    position: absolute;
+    width: 949px;
+    height: 892px;
+    right: 176px;
+    top: 121px;}
+
+
+      #page3-photo{
+        position: absolute;
+        width: 783px;
+        height: 759px;
+        right: 197px;
+        top: 198px;
+      }
+
+
+          #page4-photo{
+            position: absolute;
+            width: 703px;
+            height: 703px;
+            right: 262px;
+            top: 215px;
+          }
+
+
+
+
+
+
+
+/*
+buttons
+*/
+
+   
+  #right-button{
+    position: absolute;
+    width: 14px;
+    height: 20.63px;
+    right: 888px;
+    bottom: 104.37px;
+    
+
+    
+    }
+    
+    #left-button{
+      position: absolute;
+    left: 887px;
+    bottom: 104.37px;
+    width: 14px;
+    height: 20.63px;
+    
+    }
+  
